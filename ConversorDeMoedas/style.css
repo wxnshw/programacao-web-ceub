@@ -1,0 +1,183 @@
+:root{
+    --fonte-primaria:"Nunito", sans-serif;
+    --cor-primaria: #EEEEEE;
+    --cor-secundaria: #DDDDDD;
+    --cor-terciaria: #76885B;
+    --cor-marcacao: #627254;
+}
+
+*{
+    margin: 20px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-primaria);
+}
+
+.container{
+    background-color: var(--cor-primaria);
+    padding: 100px;
+    border-radius: 16px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    margin-bottom: 50px;
+    font-size: 80px;
+    text-shadow: 2px 4px var(--cor-marcacao);
+}
+
+#valor-usuario{
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-secundaria);
+    width: 20vw;
+    height: 5vh;
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+#moeda1{
+    border-radius: 8px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    width: 10vw;
+    height: 5vh;
+    background-color: var(--cor-terciaria);
+    border: none;
+    outline: none;
+}
+
+#moeda2{
+    border-radius: 8px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    width: 10vw;
+    height: 5vh;
+    background-color: var(--cor-terciaria);
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+#botao-inverter{
+  background-color: var(--cor-secundaria);
+  border-radius: 8px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: var(--fonte-primaria);
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #76885B;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  outline: none;
+  border: none;
+}
+
+#botao-inverter:hover {
+    box-shadow: inset 0 0 0 50px #76885B;
+}
+
+#botao-converter{
+    height: 70px;
+    width: 200px;
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #76885B;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    outline: none;
+    border: none;
+  }
+  
+#botao-converter:hover {
+      box-shadow: inset 0 0 0 50px #76885B;
+  }
+
+#botao-limpar{
+    height: 70px;
+    width: 200px;
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #76885B;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    outline: none;
+    border: none;
+}
+  
+#botao-limpar:hover {
+      box-shadow: inset 0 0 0 50px #76885B;
+}
+
+#resultado{
+    font-size: 50px;
+    font-family: var(--fonte-primaria);
+    margin-top: 50px;
+}
+
+.mensagem-usuario{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #C1F2B0;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: var(--fonte-primaria);
+    font-size: 35px;
+}
+
+#botao-aceita-mensagem{
+    height: 70px;
+    width: 200px;
+    background-color: #C1F2B0;
+    border-radius: 8px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #65B741;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    outline: none;
+    border: none;
+}
+
+#botao-aceita-mensagem:hover{
+    box-shadow: inset 0 0 0 50px #65B741;
+}
